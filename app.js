@@ -180,8 +180,10 @@ const loadSelectData=()=>{
 const sendToDom=(gelenDeger)=>{
 
 
-    const avatarImg=document.getElementById('avatarImg')
+    const avatarImg = document.getElementById('avatarImg')
+    const avatarHref = document.getElementById('avatarHref')
 
+    avatarHref.href=gelenDeger.url
     avatarImg.src=gelenDeger.url
 
 }
