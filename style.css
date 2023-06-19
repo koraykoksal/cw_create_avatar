@@ -1,0 +1,112 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    height: 100vh;
+    background-color: #334c62;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h1{
+    text-align: center;
+    padding: 20px;
+    color: #c3112d;
+}
+
+#select{
+
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+
+.avatarType{
+
+    text-align: center;
+}
+
+.avatarImg{
+
+    text-align: center;
+    padding: 30px;
+}
+
+.avatarImg img{
+
+    border-radius: 10px;
+    width: 300px;
+}
+
+
+main{
+
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    margin: 30px;
+
+}
+
+main select{
+
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+.btn{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn button{
+
+    margin-top: 100px;
+    color: #c3112d;
+    padding: 20px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: transparent;border: 1px solid #c3112d;
+    cursor: pointer;
+}
+
+.btn button:hover{
+
+    border-color: white;
+    color: white;
+    transition: 0.4s;
+
+}
+
+
+div p{
+
+    color: white;
+    padding: 5px;
+}
+
+.coder{
+    color: white;
+    margin-top: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+small{
+    float: right;
+}
